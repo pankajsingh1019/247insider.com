@@ -1,0 +1,22 @@
+.all-cat-wrp .heading{font-size:28px;color:#000;position:relative;text-align:center;margin:20px 0 40px;text-transform:uppercase;font-weight:700}
+.all-cat-wrp .heading:after{background:#4d426d;bottom:-15px;content:"";display:inline-block;height:3px;position:absolute;width:60px;z-index:-1;left:50%;transform:translateX(-50%);transition:.3s all ease}
+.all-cat-wrp .cat-container{float:left;width:32%;margin-right:2%}
+.all-cat-wrp .cat-container:last-child{margin-right:0}
+.all-cat-wrp .main-cat{margin-bottom:20px}
+.all-cat-wrp .cat-name h2{font-size:20px;line-height:24px;color:#000;position:relative;display:inline-block;margin-bottom:20px;text-transform:uppercase;transition:.3s all ease}
+.all-cat-wrp .cat-name h2:hover{color:#4d426d}
+.all-cat-wrp .cat-name h2:hover:after{background:#000}
+.all-cat-wrp .cat-name h2:after{background:#4d426d;bottom:-10px;content:"";display:inline-block;height:3px;position:absolute;width:60px;z-index:-1;left:0;transition:.3s all ease}
+.all-cat-wrp li{margin-bottom:5px}
+.all-cat-wrp .cat-item{font-size:15px;line-height:19px;color:#000}
+.all-cat-wrp .cat-item:hover{text-decoration:underline}
+
+
+@media all and (max-width: 767px) {
+  .all-cat-wrp .heading{font-size:22px;margin:10px 0 40px}
+  .all-cat-wrp .heading:after{bottom:-10px}
+  .all-cat-wrp .cat-container{float:none;width:auto;margin-right:0}
+  .all-cat-wrp .cat-name h2{font-size:17px;line-height:21px;margin-bottom:10px}
+  .all-cat-wrp .cat-name h2:after{bottom:-6px}
+  .all-cat-wrp .cat-item{font-size:14px;line-height:18px}
+}

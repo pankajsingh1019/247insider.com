@@ -1,0 +1,444 @@
+/* ................................Header css...................................... */
+
+.header{background-color: #f0f6f7;padding:2px 0;}
+.header .search-bar .input-field input{background-color:white;}
+
+/* ................................Top Ads......................................... */
+
+.top-eds{background-color:#f0f6f7;padding:0px 0px 15px 0px;}
+.top-eds .text-wrp{margin-bottom:3px;}
+.top-eds .text-wrp .result-for{width:calc(100% - 116px);display: inline-block;vertical-align: bottom;word-break:break-word;font-size:12px;color:#4d426d;font-weight:500;line-height: 18px;}
+.top-eds .text-wrp .result-for .kw{text-transform: uppercase;}
+.top-eds .text-wrp .sponsored{width:112px;display: inline-block;vertical-align: bottom;font-size:12px;color:#4d426d;font-weight:500}
+.srp-pg-wrp .text-wrp{position:relative;margin:9px 0 8px 0;font-size:14px;line-height:18px;color:#262626;padding-right:120px;}
+.srp-pg-wrp .text-wrp .sponsored{position:absolute;right:0;color:#999999;font-size:13px;font-weight:400;}
+.srp-pg-wrp .text-wrp .result-for{left:0;color:#999999;font-size:13px;font-weight:400;}
+.srp-list-top .main{position:relative;width:100%;margin:0 0 6px 0;background-color:#ffffff;min-height:101px;display:flex;align-items:center;transition:.3s all ease;border-radius:5px;}
+.srp-list-top .inner{padding:8px 240px 8px 120px;width:100%;}
+.srp-list-top .num-img-wrp{position:absolute;width:84px;height:84px;top:50%;left:14px;margin:-42px 0 0 0;text-align:center;font-size:60px;line-height:84px;color:#4d426d;font-weight:700}
+.srp-list-top .num-img-wrp::before{content:"";height:100%;width:1px;background-color:rgba(151, 151, 151, .2);position: absolute;top:0;right:-13px;}
+.srp-list-top .num-img-wrp .mob{display:none;}
+.srp-list-top .num-img-wrp .img{height:84px;background-repeat:no-repeat;background-size:cover;background-position:center;border-radius:4px;}
+.srp-list-top .title{font-size:22px;line-height:26px;color:#4d426d;font-weight:700;;margin:0 0 3px 0;transition:.3s all ease;text-decoration: underline;}
+.srp-list-top .title-copy{font-size:23px;line-height:26px;color:#e94e48;font-weight:900;;margin:0 0 3px 0;transition:.3s all ease;display:none;}
+.srp-list-top .title *{font:inherit;}
+.srp-list-top .title-copy *{font:inherit;}
+.srp-list-top .desc *{font:inherit;}
+.srp-list-top .meta{color:#000;font-style:italic;}
+.srp-list-top .meta .url{font-style:normal;font-size:16px;font-weight:500;color:#ff8b66;display:inline-block;vertical-align:middle;line-height:20px;overflow:hidden;text-overflow:ellipsis;word-break: break-word;}
+.srp-list-top .meta .sepr{font-style:normal;}
+.srp-list-top .meta .desc{font-weight:500;color:#4d426d;display:block;font-size:16px;font-style:normal;line-height: 18px;}
+.srp-list-top .meta .ratings{display:inline-block;vertical-align:middle;height:23px;}
+.srp-list-top .meta .ratings img{line-height:22px;vertical-align:middle;height:14px;}
+.srp-list-top .site-links{color:black;display:block}
+.srp-list-top .site-links li{position:relative;z-index:99;padding:0 20px 0 0;display:inline-block;vertical-align:top;margin:0px 10px;font-size:13px;max-width:calc((100% - 44px) / 2);padding:0 12px 0 0;}
+.srp-list-top .site-links a{font-size: 14px;line-height: 22px;max-height: 22px;overflow: hidden;color:#4d426d;text-decoration: underline;font-weight:500}
+.srp-list-top .site-links li::before{ top:2px;position:absolute;content: "\2022"; color: red; font-weight: bold;display: inline-block;  width: 1em; margin-left: -1em;font-size:10px;vertical-align:middle;margin-bottom:4px;}
+.srp-list-top .main:hover .site-links a{color:red;}
+.srp-list-top .sitelinks-wrp{display:inline-block;vertical-align:middle;width:150px;margin:0 0 0 -6px;}
+.srp-list-top .sitelinks-wrp li{padding:0 0 0 15px;position:relative;z-index:10;list-style:none;max-height:20px;overflow:hidden;}
+.srp-list-top .sitelinks-wrp li:not(:last-child){margin:0 0 3px 0;}
+.srp-list-top .sitelinks-wrp li:before{content:'';position:absolute;top:calc(50% - 2px);left:0;width:4px;height:4px;background-color:#f71e4b;}
+.srp-list-top .sitelinks-wrp a{color:#505050;font-weight:600;transition:.3s all ease;}
+.srp-list-top .sitelinks-wrp a:hover{text-decoration:underline;}
+.srp-list-top .seeit{position:absolute;top:50%;right:28px;margin:-23px 0 0 0;width:191px;background-color:#3ecdbb;border-radius:8px;font-size:25px;line-height:50px;color:#fff;font-weight:500;transition:.3s all ease;}
+.srp-list-top .seeit .seeit-arw{background-image:url(../img/seeit-arw.svg);height:53px;width:52px;background-color:#32b2a2;background-position:center;background-repeat:no-repeat;background-size: 20px;display: inline-block;vertical-align: middle;border-top-right-radius: 6px;border-bottom-right-radius: 6px;transition:.3s all ease;}
+.srp-list-top .seeit .seeit-txt{background-repeat:no-repeat;background-position:right 18px center;display: inline-block;width:133px;vertical-align: middle;text-align: center;}
+.srp-list-top .seeit span{margin:0px 0px 0px 18px;}
+.srp-list-top .overlay-all{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;background:url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');}
+.srp-list-top .main:hover{background-color:#3ecdbb;box-shadow:0 0 12px 0 rgba(217,220,255,.5);}
+.srp-list-top .main:hover .title{color:#000000;}
+.srp-list-top .main:hover .title-copy{text-decoration:underline;color:#000000;transition: none;}
+.srp-list-top .main:hover .url{color:white;}
+.srp-list-top .main:hover .desc{color:#000000;}
+.srp-list-top .main:hover .meta{color:#999;}
+.srp-list-top .main:hover .sitelinks-wrp a{color:#000;}
+.srp-list-top .main:hover .seeit{background-color:#4d426d}
+.srp-list-top .main:hover .seeit .seeit-arw{background-color:#372c55}
+.srp-list-top .main:hover .srp-list-top .site-links a::before{color:red;}
+
+
+/* .................................................Ed extension css............................... */
+
+.ed-extension-wrap .ed-extn{ word-break: break-word; color:#4d426d; font-size:14px; line-height:20px; font-weight: 300; margin:3px 0}
+.ed-extension-wrap .ed-sba,
+.ed-extension-wrap .ed-brand{display:inline-block;}
+.ed-extension-wrap .ed-sba .label,
+.ed-extension-wrap .ed-brand .label{font-weight:700}
+.ed-extension-wrap .ed-review{color:#ff8b66;font-weight:500}
+.ed-extension-wrap .ed-sba{margin-right:15px}
+
+.ap-ed-unit-headline-wrapper {font-size: 12px; color: #4d426d; font-weight: 500;}
+.ap-ed-unit-headline-wrapper .ap-ed-unit-headline-keyword-text {text-transform: uppercase;}
+
+/* .................................................Related search css............................... */
+.related-key-wrds{margin-bottom:20px;margin-top:15px;}
+.related-title{font-size:15px;color:#4d426d;font-weight:500;line-height: 20px;}
+.related-wrds{margin:0 -7px}
+.related-wrds .wrds{width:20%;float:left;margin-top:15px;padding:0 7px}
+.related-wrds .wrds:nth-child(5n){margin-right:0;}
+.related-wrds .wrds a{color:#4d426d;font-size:14px;font-weight: 500;line-height: 18px;max-height:18px;overflow: hidden;display:inline-block;}
+/* .related-wrds .wrds a .kwd{display:inline-block;overflow: hidden;height:18px;word-break: break-word;width:calc(100% - 18px);vertical-align: middle;} */
+.related-wrds .wrds a:hover .kwd{text-decoration: underline;}
+.related-wrds .wrds a::before {content: "\2022";color:orange;font-weight: bold;display: inline-block; width: 1em;margin-left: 0em;vertical-align: middle;}
+
+
+
+
+/* ...........................................Locallistings css...................................... */
+.pull-left{width:300px;display: inline-block;vertical-align:top;margin-right:15px;}
+.serp-innerwrap .col-md-4{box-shadow: 0 2px 10px 0 rgba(93, 93, 93, 0.11);}
+.listing-wrap{margin-bottom: 10px; display: block; background:white; padding: 14px; border: 1.5px solid transparent; overflow: hidden; position: relative; transition: 0.5s;border-radius:5px;} 
+.listing-title{color: #ff6100; font-size:20px; line-height: 25px; font-weight: 500; overflow: hidden; margin-bottom: 3px;}  
+.listing-add{font-size: 14px; font-weight: 500; color: #4d426d; line-height: 18px; max-height: 36px; overflow: hidden;    margin-bottom: 9px;background-image: url(../img/location.svg);background-repeat: no-repeat;background-position: left center;background-size: 12px;padding-left: 18px;}
+.listing-num{font-size: 14px; line-height: 18px; color: #4d426d; font-weight: 500; margin-bottom: 6px;overflow: hidden;background-image: url(../img/phone-call.svg);background-repeat: no-repeat;background-position: left center;background-size: 14px;    padding-left: 18px;} 
+.listing-ratings img{vertical-align: baseline;}
+.listing-ratings{margin-bottom: 2px;width: 76px;} 
+.listings-link{height: 23px; overflow: hidden;display: inline-block;width:100%;}
+.listings{margin-bottom: 20px;}
+.listing-distance{font-size:14px; font-weight:500; color: #4d426d; line-height:18px;background-image:url(../img/km.svg);background-position:left center;background-size:14px;background-repeat:no-repeat;padding: 0 0 0 18px;float: right;}
+.ttlwrp:hover{color: #000;}
+.ttlwrp{overflow: hidden; float: left;color: #4d426d;}
+
+
+
+/* ...................................Serp page search-box............................... */
+
+.serp-pg-search{margin-top:50px;display:none;border-radius:6px;background-color:white;transition: .5s width ease-in-out;}
+.serp-pg-search.active{background-color:#f6f6f6}
+.serp-pg-search .serp-pg-search-box form{width:0;opacity: 0;}
+.serp-pg-search .serp-pg-search-box form.active{width:calc(100% - 34px);display: inline-block;vertical-align: middle;height:32px;opacity:1}
+.serp-pg-search .serp-pg-search-box .serp-search-input{height:32px;width:100%;float:right;background-color:transparent;padding-left:10px;line-height:19px;font-size:15px;font-weight:400}
+.serp-pg-search .serp-pg-search-box .serp-search-icon{background-color:transparent;background-image:url(../img/serp-pg-search-icon.svg);background-position:center;background-repeat:no-repeat;height:32px;background-size:20px;width:30px;float:right;cursor: pointer;}
+
+
+/* ............................................Product serp css ............................. */
+
+.pull-right{width:calc(100% - 319px);display: inline-block;vertical-align:top;}
+.product-cards .card{border:1px solid rgba(151, 151, 151, 0.2);margin-top:10px;padding:12px 13px 12px 13px;position: relative;border-radius: 5px;}
+.product-cards .card:hover .card-info .title{color:#3ecdbb}
+.product-cards .card:hover .card-info .price{color:#3ecdbb}
+.product-cards .card-img{width:104px;height:86px;background-repeat: no-repeat;background-size: cover;background-position: center;display: inline-block;vertical-align: middle;border-radius: 3px;}
+.product-cards .card-info{display:inline-block;vertical-align: middle;width:calc(100% - 120px);padding-left:10px;padding-right:70px;}
+.product-cards .card-info .title{font-size:16px;display: block;color:#4d426d;font-weight:500;line-height:20px;max-height:20px;overflow: hidden;margin-bottom:5px;}
+.product-cards .card-info .desc{font-size:14px;color:#4d426d;font-weight:400;line-height:18px;opacity: 50%;max-height:54px;overflow: hidden;margin-bottom:5px;}
+.product-cards .card-info .price{font-size:20px;color:#4d426d;font-weight:500;line-height:24px;}
+.product-cards .card-arrow{position: absolute;top:50%;transform: translateY(-50%);right:20px;height:48px;width:52px;background-color:#32b2a2;background-image:url(../img/product-arrow.svg);background-size:20px;background-position: center;background-repeat: no-repeat;border-radius: 3px;}
+.product-card-wrp .pagination-wrap {text-align: right;margin-top:10px;}
+.product-card-wrp .next-nav-serp span{background-image: url(../img/serp-pg-pagination-next.svg);background-repeat: no-repeat;background-position:center;background-size:contain;height:10px;width:10px;display: inline-block;}
+.product-card-wrp .prev-nav-serp span{background-image: url(../img/serp-pg-pagination-pre.svg);background-repeat: no-repeat;background-position:center;background-size:contain;height:10px;width:10px;display: inline-block;}
+.product-card-wrp .page-count-num{margin:0 12px;color:#ebebeb}
+.product-card-wrp .page-count-num.active{color:#32b2a2;cursor: default;}
+
+
+/* ......................................................Azure News Css....................................... */
+
+.newsfeed-wrp{margin-bottom: 14px;}
+.news-feed ul li {margin-bottom: 10px;border-radius: 5px;border: solid 1px rgba(151, 151, 151, 0.2)}
+.news-feed ul li:hover .content a{color:#3ecdbb}
+.news-feed ul li:hover .view {color:#3ecdbb}
+.news-feed ul li:hover .view {background-image: url(../img/read-more-arrow\ copy.svg);}
+.news-feed ul li:last-child{margin-bottom: 0;}
+.news-img{width:94px;height: 92px;display: inline-block;vertical-align: middle;} 
+.news-img img{height: 100%;}
+.content{width: calc(100% - 103px); display: inline-block;vertical-align: middle;padding-left:10px;}
+.content a{color: #4d426d;display: block; font-size: 18px; line-height: 23px; font-weight: 700; text-transform: capitalize; max-height: 23px; overflow: hidden; }
+.content p{color: #4d426d;opacity:50%;font-size: 14px; font-weight: 500; line-height: 18px; max-height: 36px; overflow: hidden;}
+.view{font-size: 14px; font-weight: 500; color: #4d426d; line-height: 18px;background-image: url(../img/read-more-arrow.svg);background-position: right center;background-size: 15px;background-repeat: no-repeat;padding-right:28px;}
+.wrap-prod{padding: 12px;}
+
+
+/* .......................................................Web Results................................... */
+    
+.relatedProduct-bg{position: relative;}
+.relatedProduct-bg .bg{position: absolute;width:100%;background-color:#f0f6f7;height:275px;}
+.relatedProdwrap{padding-left:calc(3.5% + 322px)}
+.relatedProdwrap .slick-next{left:calc(5% + 85px)}
+.relatedProdwrap .commonHeadBoldTxt {text-transform: uppercase;}
+.relatedProdwrap {position: relative;margin: 0 0 0 auto;width:calc((100vw - 1110px) / 2 + 1110px);max-width:97.5%;}
+.relatedProdwrap:before {content: "Get The Best Information Around You!";position: absolute;font-size: 30px;font-weight: 500;color: #4d426d;left:0px;top: 65px;width:380px;line-height:36px;margin-bottom:14px;}
+.relatedProdwrap:after {content: "The best tips from around the place from our partners and friends. Go around to find your perfect requirement";position: absolute;font-size: 14px;font-weight: 500;color: #9b9b9b;left:0px;top: 152px;color: #4d426d;width:339px;line-height: 20px;}
+.relatedProdBlock {box-shadow: 0 2px 12px 0 rgba(132, 132, 132, 0.16);background: #fff;outline: none;border: 0;-webkit-appearance: none;margin: 10px 15px 10px 5px;transition: all 0.3s ease-in;-webkit-transition: all 0.3s ease-in;-moz-transition: all 0.3s ease-in;width:auto !important;}
+.relatedProdBlock .relatedProdImg img{display:block;width:100%;height:auto;}
+.relatedProdInnerwrap {margin-top: 40px;}
+.relatedProdBlock a {display: block;padding-bottom:26px;}
+.relatedProdTitle {font-size: 20px;font-weight: 500;line-height: 26px;color: #2e2841;text-transform: capitalize;margin: 20px 0;overflow: hidden;height: 52px;padding:0px 14px;word-break:break-word;white-space: normal;}
+.relatedProdDesc {font-size: 14px;font-weight: 500;color: #2e2841;overflow: hidden;opacity: 30%;line-height:18px;height:108px;padding:0px 14px;word-break:break-word;}
+.relatedProdDesc * {font-style:normal}
+.relatedProdRead-more{margin-top:5px;font-size:14px;line-height: 26px;font-weight:700;color:#32b2a2;background-image: url(../img/read-more-arrow\ copy.svg);background-repeat: no-repeat;background-size: 14px;background-position: right center;padding-right:20px;display: inline-block;padding-left:14px;}
+.relatedProdBlock:hover {transform: scale(1.03);}
+.relatedProdBlock a:hover .relatedProdTitle {text-decoration: underline;color: #32b2a2;}
+.relatedProdInnerwrap .slick-list {padding: 20px 15% 10px 5px;}
+.relatedProdInnerwrap .slick-active {opacity: 1;}
+.relatedProdwrap .slick-prev{display:none !important;}
+.relatedProdwrap .slick-next{display:none !important;}
+.relatedProdwrap .slick-slide img{border-radius: 7px;}
+
+
+/*........................................................Questions..............................................................................*/
+
+.question{margin-top:20px;}
+.question .quest-boxes .quest-heading .head{font-size:22px;line-height: 36px;color:#4d426d;font-weight: 700;}
+.question .quest-boxes .quest-heading .help{font-size:14px;line-height: 20px;color:#4d426d;font-weight: 500;margin-top:6px}
+.question .quest-boxes .quest-box{margin-top:15px;background-color: #f0f6f7;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;}
+.question .quest-boxes .quest-box:hover .quest-title .info{text-decoration:underline;}
+.question .quest-boxes .quest-box .quest-title{background-color:#3ecdbb;padding:5px 19px 5px 19px;border-radius:8px;}
+.question .quest-boxes .quest-box .quest-title .label{display: inline-block;vertical-align: middle;width:38px;margin-right:5px;font-size:35px;line-height:39px;font-weight:300;color:white;position: relative;top:-2px;}
+.question .quest-boxes .quest-box .quest-title .info{display: inline-block;vertical-align: middle;width:calc(100% - 52px);font-size:18px;line-height: 24px;
+font-weight: 500;color:white;max-height: 24px;overflow: hidden;}
+.question .quest-boxes .quest-box .quest-desc{padding:12px 19px 12px 19px;background-color:#f0f6f7;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;}
+.question .quest-boxes .quest-box .quest-desc .label{display: inline-block;vertical-align: middle;width:38px;margin-right:10px;font-size:35px;color:#4d426d;line-height:39px;font-weight:500}
+.question .quest-boxes .quest-box .quest-desc .info{display: inline-block;vertical-align: middle;width:calc(100% - 52px);font-size:14px;color:#4d426d;line-height: 18px;font-weight:400;max-height:72px;overflow: hidden;}
+
+
+
+/* ...........................Question slick css............................. */
+.quest-slider .slick-prev, .quest-slider .slick-next {font-size: 0;line-height: 0;position: absolute;top: -7px;width: 20px;height: 20px;padding: 0;transform: translate(0, -50%);cursor: pointer;color: transparent;border: none;outline: none;background: transparent;
+}
+
+.quest-slider .slick-next{right:0px}
+.quest-slider .slick-prev{left:inherit;right:4%;}
+
+.quest-slider .slick-prev:before, .quest-slider .slick-next:before {font-family: 'slick';font-size: 28px;line-height: 1;opacity: .75;color:#32b2a2;-webkit-font-smoothing: antialiased;}
+
+.quest-slider .slick-prev:before{content: '';background-image: url(../img/slick-arrow-serp-pre.svg);background-repeat: no-repeat;background-position: center;height:12px;width:16px;display: block;}
+.quest-slider .slick-next:before{content: '';background-image: url(../img/slick-arrow-serp.svg);background-repeat: no-repeat;background-position: center;height:12px;width:16px;display: block;}
+
+/* .........................................Banner.......................... */
+/* .serp-banner .img{background-image:url(../img/serp-banner.svg);background-position: center;max-width:411px;height:70px;background-repeat: no-repeat;margin:0 auto;border-radius: 8px;margin-top:15px;background-size:contain} */
+.serp-banner .img{width:100%;height:70px;margin:0 auto;border-radius: 8px;margin-top:15px;}
+.serp-banner .img svg{width:100%;display:block;}
+
+/* ..........................................................bottom ads............................................................................. */
+
+.bottom-eds{background-color:#f0f6f7;padding-bottom:12px;padding-top:6px;margin-top:20px;}
+.srp-list-bottom .text-wrp{text-align:right;font-size:12px;font-weight:500;color:#4d426d;line-height: 16px;}
+.bottom-nw .text-wrp{text-align:right;font-size:12px;font-weight:500;color:#4d426d;line-height: 16px;margin-bottom:6px;}
+.srp-list-bottom .main{position:relative;margin:8px 0px;background-color:white;min-height:77px;transition:.3s all ease;border-radius:5px;box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.04);}
+.srp-list-bottom .inner{padding:10px 100px 10px 112px;}
+.srp-list-bottom .num-img-wrp{position:absolute;width:82px;height:67px;top:50%;left:14px;margin:0 0 0 0;transform: translateY(-50%);text-align:center;font-size:60px;line-height:84px;color:#3ecdbb;font-weight:700;background-repeat: no-repeat;background-position: center;background-size: contain;border-radius:3px;}
+.srp-list-bottom .main:hover .num-img-wrp{color:white;}
+.srp-list-bottom .num-img-wrp .mob{display:none;}
+.srp-list-bottom .num-img-wrp .desk{height:100%;}
+.srp-list-bottom .num-img-wrp .img{height:100%;background-repeat:no-repeat;background-size:cover;background-position:center;}
+.srp-list-bottom .desc-wrp{display:inline-block;vertical-align:middle;}
+.srp-list-bottom .title{font-size:22px;line-height:26px;color:#4d426d;font-weight:700;margin:0 0 3px 0;transition:.3s all ease;text-decoration:underline}
+.srp-list-bottom .btm-img{display: none;}
+.srp-list-bottom .title *{font:inherit;}
+.srp-list-bottom .desc *{font:inherit;}
+.srp-list-bottom .meta{line-height:22px;color:#4d426d;font-style:italic;}
+.srp-list-bottom .meta .url{font-size:14px;line-height:18px;color:#4d426d;display:inline-block;vertical-align:middle;font-style:normal;font-weight:500;word-break:break-word;}
+.srp-list-bottom .meta .sepr{font-style:normal;}
+.srp-list-bottom .meta .desc{font-weight:400;color:#4d426d;display:block;font-size:14px;font-style:normal;line-height:18px;}
+.srp-list-bottom .meta .ratings{display:inline-block;vertical-align:middle;}
+.srp-list-bottom .sitelinks-wrp{display:inline-block;vertical-align:middle;width:150px;margin:0 0 0 -6px;}
+.srp-list-bottom .sitelinks-wrp li{padding:0 0 0 15px;position:relative;z-index:10;list-style:none;max-height:20px;overflow:hidden;}
+.srp-list-bottom .sitelinks-wrp li:not(:last-child){margin:0 0 3px 0;}
+.srp-list-bottom .sitelinks-wrp li:before{content:'';position:absolute;top:calc(50% - 2px);left:0;width:4px;height:4px;background-color:#f71e4b;}
+.srp-list-bottom .sitelinks-wrp a{color:#505050;font-weight:600;transition:.3s all ease;}
+.srp-list-bottom .sitelinks-wrp a:hover{text-decoration:underline;}
+.srp-list-bottom .seeit-btm{position:absolute;top:50%;right:34px;transform: translateY(-50%);background-color:#3ecdbb;;border-radius:6px;font-size:17px;line-height:46px;color:#fff;font-weight:600;}
+.srp-list-bottom .seeit-btm .btn-ads{background-image:url(../img/path-white.svg);background-repeat:no-repeat;background-position:right 17px center;height:57px;width:52px;border-radius: 6px;}
+.srp-list-bottom .seeit-btm span{margin:0px 10px;}
+.srp-list-bottom .overlay-all{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;background:url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');}
+.srp-list-bottom .main:hover{box-shadow:0 0 12px 0 rgba(217,220,255,.5);background-color:#3ecdbb;}
+.srp-list-bottom .main:hover .meta{color:white;}
+.srp-list-bottom .main:hover .meta .url{color:white;}
+.srp-list-bottom .main:hover .meta .desc{color:white;}
+.srp-list-bottom .main:hover .title{color:white}
+.srp-list-bottom .main:hover .seeit-btm .btn-ads{background-color:white;background-image: url(../img/path.svg);background-repeat:no-repeat;background-position:right 17px center;height:57px;width:52px;}
+
+/* ......dfp.................. */
+
+.serp-dfp-d{text-align: center;}
+
+
+@media only screen and (max-width:1415px) {
+
+
+    /* .......................................................Web Results................................... */
+
+.relatedProdwrap:before{width:380px;top:78px;font-size:25px;line-height:30px;}
+.relatedProdwrap:after{width:350px;}
+}
+
+@media screen and (max-width:1024px){
+
+    .header .logo {position: relative;z-index: 20;height: 62px;width: 71px;left:50%;transform:translateX(-50%)}
+
+    /* .......................................................Web Results................................... */
+
+
+    .relatedProdwrap:before{width:310px;top:74px;}
+    .relatedProdwrap:after{width:310px;top:155px;}
+
+
+
+    /* .................................................Related search css............................... */
+
+
+    .related-wrds .wrds{width:25%;;margin-bottom:15px;margin-right:0;display:inline-block}
+    .related-wrds .wrds:nth-child(4n){margin-right:0;}
+
+
+
+
+    /* ...........................Question slick css............................*/
+
+    .quest-slider .slick-prev{left:inherit;right:6%;}
+
+}
+
+
+@media screen and (max-width:767px){
+
+    .header{background-color: white;}
+/* ................................Top Ads......................................... */
+    .top-eds{background-color: white;}
+    .srp-list-top .main{width:auto;min-height:initial;display:block;border-radius:10px;background-color:#3ecdbb;}
+    .srp-list-top .inner{padding:13px 13px 13px 13px;}
+    .srp-list-top .num-img-wrp{width:auto;height:auto;left:13px;top:16px;margin:0;font-size:40px;line-height:46px;display:flex;align-items:center;position:static;}
+    .srp-list-top .num-img-wrp .mob{display:block;font-size:40px;width:53px;text-align:left;border-right: 1px solid #979797;}
+    .srp-list-top .num-img-wrp .desk{display:none;}
+    .srp-list-top .num-img-wrp .img{height:46px;}
+    .srp-list-top .num-img-wrp::before{display:none;}
+    .srp-list-top .title{display:none;}
+    .srp-list-top .title-copy{width:calc(100% - 70px);text-align:left;display:block;text-decoration: underline;color:#000000;padding-left:10px;}
+    .srp-list-top .main:hover .title-copy:hover{color:#ff8b66}
+    .srp-pg-wrp .text-wrp{margin:2px 0 4px 0;line-height:14px;}
+    .srp-pg-wrp .text-wrp .sponsored{position:absolute;bottom:1px;right:0;color:#999999;font-size:9px;font-weight:400;line-height:10px;}
+    .srp-pg-wrp .text-wrp .result-for{left:0;color:#999999;font-size:9px;font-weight:400;line-height:0px;}
+    .srp-list-top .meta{padding-top:12px;display:flex;flex-direction: column;margin-bottom:0;}
+    .srp-list-top .meta .desc{color:white;}
+    .srp-list-top .meta .url{top:0;font-size:14px;line-height:20px;overflow:hidden;text-overflow:ellipsis;color:#4d426d}
+    .srp-list-top .main:hover .url{color:#4d426d}
+    .srp-list-top .meta .ratings{display:none;}
+    .srp-list-top .site-links{max-width:inherit;display:block}
+    .srp-list-top .site-links li{display:block;margin:5px 10px;font-size:13px;max-width:100%;padding:0 12px 0 0;}
+    .srp-list-top .site-links a{max-height:44px;text-decoration: underline;}
+    .srp-list-top .title{font-size:20px;line-height:28px;min-height:56px;padding:0 0 0 60px;margin:0;}
+    .srp-list-top .sitelinks-wrp{display:block;width:auto;margin:10px 0 0 0;}
+    .srp-list-top .sitelinks-wrp li{float:left;max-width:100%;}
+    .srp-list-top .sitelinks-wrp li:not(:last-child){margin:0 20px 3px 0;}
+    .srp-list-top .sitelinks-wrp a{color:#000;text-decoration:underline;}
+    .srp-list-top .seeit{position:static;margin:0;width:auto;text-align:center;background-position:right 17px center;height:53px;background-color:#4d426d;color:#ff8b66}
+    .srp-list-top .seeit .seeit-txt{width:100px;margin:0 auto;text-align:left;background-size:21px;background-position:right 10px center;}
+    .srp-list-top .seeit span{line-height:45px;max-height:45px;margin:0px;}
+    .srp-list-top .seeit .seeit-arw{height:52px;position: absolute;right:12px;background-color:#372c55;background-image:url(../img/seeit-arw\ -\ orange.svg)}
+
+/* .................................................Ed extension css............................... */
+.ed-extension-wrap .ed-review {color: #fff;}
+
+        /* .................................................Related search css............................... */
+
+.related-title{margin-bottom:5px;}
+.related-wrds .wrds{width:100%;margin-bottom:15px;margin-right:0;display:block}
+    
+
+
+
+    /* ...........................................Locallistings css...................................... */
+    .pull-left{width:100%;margin-right:0;}
+    .listings .top-heading{width: 280px; padding-left: 59px;}
+    .listing-distance{float:none;display:inline-block;margin-left:20px;}
+
+
+        /* .......................................serp page search box........................... */
+
+        .serp-pg-search{display:block;margin:0 0 16px 0;height:32px;}
+
+
+    /* ............................................Product serp css ............................. */
+    .pull-right{width:100%;}
+    .product-cards .card-info{padding-right:0px}
+    .product-cards .card-info .title{max-height:40px;overflow: hidden;font-size: 16px;line-height: 20px;}
+    .product-cards .card-info .desc{max-height:80px;overflow: hidden;font-size: 14px;;line-height: 16px;}
+    .product-cards .card-arrow{display: none;}
+
+    .product-card-wrp .pagination-wrap {text-align:center;}
+
+
+
+
+
+    /* ......................................................Azure News Css....................................... */
+    .content h4{font-size:16px;line-height: 20px;max-height: 40px;margin-bottom:7px;}
+    .content p{font-size:14px;line-height: 16px;max-height:80px;margin-bottom:7px;}
+    .view{font-size:14px;line-height: 16px;}
+
+
+
+
+
+
+/* .......................................................Web Results................................... */
+
+.relatedProduct-bg{margin-top:30px;}
+.relatedProdwrap{padding-left:0;padding-top:100px;}
+.relatedProdwrap:before{width:100%;top:30px;}
+.relatedProdwrap:after{width:100%;top:75px}
+.relatedProdDesc{display:none;max-height: 108px;height:auto;;}
+.relatedProdTitle{margin:20px 0 0 0;}
+
+
+
+
+/*........................................................Questions..............................................................................*/
+    
+    .question .quest-boxes .quest-box .quest-title .info{max-height:48px;}
+    .question .quest-boxes .quest-box .quest-title{padding:13px 10px 13px 7px}
+    .question .quest-boxes .quest-box .quest-desc .info{max-height:90px;}
+    .question .quest-boxes .quest-box .quest-desc{padding: 14px 19px 18px 9px;}
+    .question .quest-boxes .quest-box .quest-desc .label{margin-right:5px;}
+
+    /* ...........................Question slick css............................. */
+
+    .quest-slider .slick-prev{right:5%;margin-right:30px;}
+
+
+    /* .........................................Banner.......................... */
+    /* .serp-banner .img{margin:0;} */
+
+    /* ..............................................bottom ads............................................ */
+        .bottom-eds{margin-top:10px;}
+        .srp-list-bottom .main{width:auto;min-height:initial;display:block;}
+        .srp-list-bottom .inner{padding:11px 13px 11px 13px;}
+        .srp-list-bottom .meta{position:relative;padding-top:12px;display:flex;flex-direction: column;}
+        .srp-list-bottom .meta .url{overflow: hidden;text-overflow: ellipsis;margin-bottom:9px;margin-top:5px;color:#3ecdbb}
+        .srp-list-bottom .btm-img{width: 70px;height: 57px;left: 14px;margin:0;text-align: center;background-repeat: no-repeat;background-position: center;background-size: contain;}
+        .srp-list-bottom .meta .desc{color:#3ecdbb}
+        .srp-list-bottom .desc-wrp{display:block;width:auto;padding:0;}
+        .srp-list-bottom .title{font-size:22px;line-height:30px;margin:0;display:inline-block;vertical-align: middle;width:100%;color:#3ecdbb}
+        .srp-list-bottom .btm-img{display:inline-block;vertical-align: middle;border-radius:3px}
+        .srp-list-bottom .sitelinks-wrp{display:block;width:auto;margin:10px 0 0 0;}
+        .srp-list-bottom .sitelinks-wrp li{float:left;max-width:100%;}
+        .srp-list-bottom .sitelinks-wrp li:not(:last-child){margin:0 20px 3px 0;}
+        .srp-list-bottom .sitelinks-wrp a{color:#000;text-decoration:underline;}
+        .srp-list-bottom .seeit{position:static;margin:12px 0 0 0;width:auto;text-align:center;background-position:right 17px center;}
+        .srp-list-bottom .seeit div{width:140px;margin:0 auto;}
+        .srp-list-bottom .seeit-btm{display:none}
+        .srp-list-bottom .main:hover{box-shadow:0 0 12px 0 rgba(217,220,255,.5);background-color:white;}
+        .srp-list-bottom .main:hover .meta{color:white;}
+        .srp-list-bottom .main:hover .meta .url{color:#3ecdbb}
+        .srp-list-bottom .main:hover .meta .desc{color:#3ecdbb}
+        .srp-list-bottom .main:hover .title{color:#3ecdbb}
+        .srp-list-bottom .img-title{padding-left:85px;position:relative;min-height:60px;}
+        .srp-list-bottom .num-img-wrp{width:70px;height:57px;left:0;}
+    
+        .serp-dfp-d{text-align: center;margin-top:25px;}
+    
+}
+
+
+
+
+@media screen and (max-width:475px){
+
+  .relatedProdwrap:after{top:100px;}
+  .relatedProdwrap{padding-top:130px;}
+
+}
+
+@media screen and (min-width:0\0) and (min-resolution:+72dpi){
+
+    }

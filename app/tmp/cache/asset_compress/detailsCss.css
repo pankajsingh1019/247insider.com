@@ -1,0 +1,158 @@
+.product-detail{background-color:#f0f6f7;margin:0px 0px 20px 0px;padding:20px 0px;}
+.products .product-img{background-repeat:no-repeat;background-position: center;background-size:contain;width:500px;height:468px;border-radius: 10px;margin-right:40px;display: inline-block;vertical-align:top;background-color:white;}
+.products .product-info{width:calc(100% - 544px);display: inline-block;vertical-align: middle;}
+.products .product-info .title{font-size: 30px;font-weight: 500;line-height: 34px;color:#4d426d;margin-bottom:20px;max-height:68px;overflow: hidden;}
+.products .product-info .desc{font-size: 16px;font-weight: 500;line-height: 22px;color:#4d426d;opacity: 50%;margin-bottom:20px;max-height:88px;overflow: hidden;}
+.products .product-info .condition{font-size: 18px;font-weight: 500;line-height: 22px;color:#4d426d;margin-bottom:20px}
+.products .product-info .seller{font-size: 18px;font-weight: 500;line-height: 22px;color:#4d426d;margin-bottom:20px}
+.products .product-info .price{font-size: 40px;font-weight: 500;line-height: 40px;color:#32b2a2;margin-bottom:20px}
+.products .product-info .btn{height:57px;width:52px;background-color:#3ecdbb;width:191px;display: block;color:white;line-height: 57px;text-align: center;border-radius: 6px;margin-bottom:20px}
+.products .product-info .btn:hover{background-color:#4d426d}
+.products .product-info .btn .arrow{background-image: url(../img/seeit-arw.svg);background-color:#32b2a2;background-repeat: no-repeat;background-size: 22px;background-position: center;height:57px;width:52px;float:right;border-top-right-radius: 6px;border-bottom-right-radius: 6px;}
+.products .product-info .btn:hover .arrow{background-color:#372c55;}
+
+/* .........................................................Compare Price..................................... */
+
+.compare{padding:46px 0px 40px}
+
+.compare .compare-title h1{font-size:30px;color:#4d426d;font-weight: 500;margin-bottom:15px}
+.compare .compare-title h2{font-size:14px;color:#4d426d;font-weight: 500;margin-bottom:15px}
+
+.compare .compare-cards{margin-top:20px;border-radius:8px;}
+.compare .compare-cards .card{margin-top:10px;background:white;border-radius:8px;padding:15px 0;border:1px solid #979797;}
+.compare .compare-cards .card:hover{box-shadow: 0px 10px 18px -7px #cccccc;}
+.compare .compare-cards .one .compare-brand{height:64px;text-align: center;}
+.compare .compare-cards .one .compare-brand img{line-height: 64px;height:40px;margin-top:16px;}
+.compare .compare-cards .two .compare-brand{height:64px;}
+.compare .compare-cards .three .compare-brand{height:64px;}
+
+.compare .compare-cards .card > div{width:calc((100% - 30px) / 5);display: inline-block;vertical-align: middle;text-align: right;}
+.compare .compare-cards .card > div a{display: inline-block;text-align:center;}
+
+.compare .compare-cards .card .compare-ratings h3{font-size:18px;color:#4d426d;line-height: 22px;font-weight:500}
+
+.compare .compare-cards .card .compare-ratings img{max-width:64px;}
+
+.compare .compare-cards .card .compare-ratings{text-align: center;}
+.compare .compare-cards .card .compare-ratings div{width:135px;margin:0 auto;
+}
+.compare .compare-cards .card .compare-info{text-align: center;}
+.compare .compare-cards .card .compare-info div{width:135px;margin:0 auto;}
+.compare .compare-cards .card .compare-info h3{font-size:18px;color:#4d426d;line-height: 17px;margin-bottom:5px;font-weight:500}
+.compare .compare-cards .card .compare-info h2{font-size:18px;color:#3ecdbb;line-height:22px;font-weight:500;text-transform: uppercase;}
+
+.compare .compare-cards .card .compare-price{text-align: center;}
+.compare .compare-cards .card .compare-price div{width:135px;margin:0 auto;}
+.compare .compare-cards .card .compare-price h3{font-size:18px;color:#4d426d;line-height: 22px;font-weight:500}
+.compare .compare-cards .card .compare-price h2{font-size:18px;color:#3ecdbb;line-height: 22px;font-weight:500}
+
+.compare-button .btn{height:57px;width:52px;background-color:#3ecdbb;width:191px;display: block;color:white;line-height: 57px;text-align: center;border-radius: 6px;}
+.compare-button .btn .arrow{background-image: url(../img/seeit-arw.svg);background-color:#32b2a2;background-repeat: no-repeat;background-size: 22px;background-position: center;height:57px;width:52px;float:right;border-top-right-radius: 6px;border-bottom-right-radius: 6px;}
+
+.compare .compare-cards .card:hover .compare-button .btn{background-color:#4d426d}
+.compare .compare-cards .card:hover .compare-button .btn .arrow{background-color:#372c55}
+
+
+/* ..........................................................Related-products....................................... */
+
+
+
+.related-products .heading{margin-bottom:26px}
+.related-products .heading .title{font-size: 30px;color:#4d426d;font-weight: 500;line-height: 36px;margin-bottom:8px;}
+.related-products .heading .desc{font-size:14px;line-height: 20px;font-weight: 500;color:#4d426d;display: inline-block;padding-right:50px;}
+.related-products .related-products-box{width:calc((100% - 34px) / 2);display: inline-block;vertical-align: middle;margin-bottom:35px;padding:30px 20px 30px 20px;border-radius: 8px;box-shadow: 0 2px 10px 0 rgba(93, 93, 93, 0.11);}
+.related-products .related-products-box:hover .cat-blw-info .price{color:#4d426d}
+.related-products .related-products-box:nth-child(even){margin-right:0;}
+.related-products .related-products-box .cat-blw-img{width:218px;display: inline-block;vertical-align: middle;height:192px;background-repeat: no-repeat;background-size:contain;background-position: center;}
+.related-products .related-products-box .cat-blw-info{width:calc(100% - 238px);display: inline-block;vertical-align: middle;margin-left:15px;}
+.related-products .related-products-box .cat-blw-info .title{font-size: 20px;line-height: 26px;height: 78px;font-weight: 700;color:#4d426d;overflow: hidden;}
+.related-products .related-products-box .cat-blw-info .desc{font-size:14px;line-height: 22px;height: 66px;color:#4d426d;overflow: hidden;margin-bottom:18px;}
+.related-products .related-products-box .cat-blw-info .price{font-size: 24px;line-height: 22px;color:#32b2a2;font-weight: 500;}
+
+.related-products .slick-list{margin:0 -19px;}
+.related-products  .slick-slide > div{padding:0 20px}
+
+.related-products .slick-prev, .related-products .slick-next {font-size: 0;line-height: 0;position: absolute;top: -44px;width: 20px;height: 20px;padding: 0;transform: translate(0, -50%);cursor: pointer;color: transparent;border: none;outline: none;background: transparent;
+}
+
+.related-products .slick-next{right:0px}
+.related-products .slick-prev{left:inherit;right:3%;}
+
+.related-products .slick-prev:before, .related-products .slick-next:before {font-family: 'slick';font-size: 13px;line-height: 1;opacity: .75;color:#32b2a2;-webkit-font-smoothing: antialiased;}
+
+.related-products .slick-prev:before{content: '';background-image: url(../img/slick-arrow-serp-pre.svg);background-repeat: no-repeat;background-position: center;height:12px;width:16px;display: block;}
+.related-products .slick-next:before{content: '';background-image: url(../img/slick-arrow-serp.svg);background-repeat: no-repeat;background-position: center;height:12px;width:16px;display: block;}
+
+.prod-dfp-d{text-align:center;margin-bottom:20px}
+
+@media screen and (max-width:1024px){
+
+    .products .product-img{width:400px;height:350px;margin-right:20px;}
+    .products .product-info{width:calc(100% - 424px)}
+    
+
+
+
+    /* .........................................................Compare Price..................................... */
+    .compare .compare-cards .card > div a{width:100%}
+    .compare .compare-cards .card .compare-ratings div{width:100%}
+    .compare .compare-cards .card .compare-info div{width:100%}
+    .compare .compare-cards .card .compare-price div{width:100%;}
+
+
+
+
+
+    /* ..........................................................Related-products....................................... */
+
+    .related-products .related-products-box .cat-blw-img{width:160px;height:160px;}
+    .related-products .related-products-box .cat-blw-info{width:calc(100% - 179px);}
+	.filter{width:100%;margin-right: 0;}
+	.category{width:100%}
+	.filter .heading{width:calc(100% - 24px);display: inline-block;vertical-align: middle;}
+	.filter .filter-btn{background-image: url(../img/filter-icon.svg);background-repeat: no-repeat;background-size:20px;background-position: center;height:20px;width:20px;display: inline-block;vertical-align: middle;}
+	.filter .price-class{display:none}
+	.filter .price-class.active{display:block}
+
+}
+
+
+
+@media screen and (max-width:999px){
+
+    .products .product-img{width:400px;height:350px;margin-right:10px;}
+    .products .product-info{width:calc(100% - 414px)}
+}
+
+
+
+@media screen and (max-width:767px){
+
+    .products .product-img{width:100%;height:460px;margin-right:0px;margin-bottom:20px;}
+    .products .product-info{width:100%}
+    .products .product-info .title{font-size:22px;line-height: 26px;margin-bottom: 12px;max-height: 52px;}
+    .products .product-info .desc{font-size: 14px;line-height: 18px;margin-bottom: 12px;max-height: 72px;}
+    .products .product-info .condition{font-size:15px;line-height: 19px;margin-bottom: 12px;}
+    .products .product-info .seller{font-size:15px;line-height: 19px;margin-bottom: 12px;}
+    .products .product-info .price{font-size:32px;line-height: 36px;margin-bottom: 12px;}
+    .products .product-info .btn{margin-bottom:0;}
+
+
+
+
+
+  /* .........................................................Compare Price..................................... */
+
+  .compare .compare-cards .card > div{width:100%;;margin-top:15px;}
+  .compare .compare-cards .card{padding:0;}
+  .compare{padding:10px 0px 32px}
+/* ..........................................................Related-products....................................... */
+
+    .related-products{margin-top:40px;}
+    .related-products .related-products-box{width:100%;margin-right:0;padding:20px 15px;}
+    .related-products .related-products-box .cat-blw-img{width:114px;height:114px;}
+    .related-products .related-products-box .cat-blw-info{width:calc(100% - 133px);}
+    .related-products .related-products-box .cat-blw-info .desc{margin-bottom:12px;}
+    .related-products .related-products-box .cat-blw-info .title{max-height:78px;height:auto}
+    .related-products .related-products-box .cat-blw-info .desc{max-height:66px;height:auto}
+}

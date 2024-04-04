@@ -1,0 +1,58 @@
+
+
+
+
+/* ..........................................Footer Css......................................... */
+
+
+footer{background-color:#221f37}
+footer a{color:white}
+footer a:hover{text-decoration:underline;}
+.footer-content .footer-logo{float:left;}
+.footer-content .footer-logo a{background-image:url(../img/logo.svg);background-repeat:no-repeat;background-position: center;background-size: contain;display:inline-block;height:67px;width:75px;}
+.footer-content .footer-info{font-size:13px;line-height:20px;color:#ffffff;font-weight:500;float:left;width:calc(100% - 739px);margin-left:60px;margin-top:18px;}
+.footer-content .footer-cmpny {font-size:14px;font-weight:500;line-height: 25px;float:left;margin-left:70px;margin-top:18px;width:90px;}
+.footer-content .footer-cmpny p{color:#f4ab88;line-height:18px;font-weight:700;margin-bottom:15px;}
+.footer-content .footer-popular{font-size:14px;font-weight:500;line-height: 25px;float:left;margin-left:80px;margin-top:18px;width:364px}
+.footer-content .footer-popular ul{float:left;margin-right:20px;width:calc((100% - 40px) / 3)}
+.footer-content .footer-popular ul:last-child{margin-right:0;}
+.footer-content .footer-popular p{color:#f4ab88;line-height:18px;font-weight:700;margin-bottom:15px}
+.footer-cpy{font-size:14px;line-height:25px;color:white;text-align: center;border-top:0.2px solid #dff5f8;padding:10px 0px;margin-top:30px}
+
+
+
+
+
+/* ...............................................Media Query.......................................... */
+
+
+@media screen and (max-width:1024px){
+
+    .footer-content .footer-logo a{margin:0;display: block;}
+    .footer-content .footer-info{margin:32px 0 0 25px;width:calc(100% - 100px)}
+    .footer-content .footer-cmpny{margin:30px 120px 0 0;width:200px}
+    .footer-content .footer-popular{margin:30px  0 0 0;width:calc(100% - 320px);}
+    .footer-content .footer-popular ul{margin-right:10px;width:calc((100% - 20px) / 3)}
+
+
+}
+
+
+
+@media screen and (max-width:767px){
+
+    .footer-content .footer-logo {float:none;}
+    .footer-content .footer-logo a{margin:0;display: block;}
+    .footer-content .footer-info{float:none;margin:32px 0 0 0;width: 90%;}
+    .footer-content .footer-cmpny{float:none;margin:30px 0 0 0;}
+    .footer-content .footer-popular{float:none;margin:30px  0 0 0;width:100%}
+    .footer-content .footer-popular ul{width:calc((100% - 70px) / 3);margin-right:35px;}
+    .footer-cpy{margin-top:70px;}
+}
+
+
+@media screen and (max-width:420px){
+
+    .footer-content .footer-popular ul{width:calc((100% - 70px) / 2);margin-right:35px;}
+
+}
